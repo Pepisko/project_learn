@@ -1,0 +1,48 @@
+@media(min-width:991px) {
+
+    .section-honeybee {
+        background-image: url(../img/backgroundblock1.jpg);
+        background-position: center;
+        background-size: cover;
+        width: auto;
+        min-height: 839px;
+        position: relative;
+    }
+
+    .text-section-honeybee {
+        position: absolute;
+        top: 320px;
+        left: 100px;
+        max-width: 500px;
+        max-height: 333px;
+        text-align: left;
+    }
+}
+
+@media(max-width:990px) {
+    h1 {
+        font-size: 62px;
+    }
+
+    .section-honeybee {
+        background-image: url(../img/backgroundblock1.jpg);
+        background-position: 41%;
+        background-size: cover;
+        padding: 130px 24px 130px 24px;
+        word-wrap: break-word;
+    }
+
+
+
+
+    .text-section-honeybee {
+
+        text-align: left;
+        word-wrap: break-word;
+
+    }
+}
+
+#button-section-honeybee {
+    margin: 30px 0 0 0;
+}
